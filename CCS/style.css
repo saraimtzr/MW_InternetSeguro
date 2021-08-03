@@ -1,0 +1,310 @@
+ 	/*Manda a llamar una clase;   #Manda a llamar un ID*/
+
+	 
+	h1{  	
+		color:  #4a235a ;
+		font-size:  350%;
+		text-align: center;
+		font-family: fuente1;
+	}
+
+	h2{  	
+		color:#1B4F72;
+		font-size:xx-large;
+		text-align: center;
+		font-family: fuente2;
+	}
+
+	h3{
+		color: #566573;
+		font-size:30px;
+		text-align: center;
+		font-family: fuente2;
+	}
+
+	ul{
+		font-family: arial;
+		font-size:20px;
+	}
+
+	img{
+		border-radius: 60px;
+		
+	}
+
+	a{
+		border-bottom-style: double;
+		border-color:    #fdedec  ;
+		position: center;
+
+	}
+
+	.somos, .queremos{
+		background: #f1a297;
+		height: auto;
+		width: auto;
+		border-radius: 50px;
+	}
+	
+	.imgsomos{
+		padding-right:2em;
+	}
+
+ 	#somos1 td{
+	width: 90%;
+	height: 80%;
+	padding-top: 1em;
+	padding-bottom: 1.5em;
+	text-align: center;
+	}
+
+	.queremos{
+		background: #f1a297;
+		height: auto;
+		width: auto;
+		text-align: justify;
+		padding: 0.3em; 
+		
+	}
+
+	#queremos1 td{
+	padding-top: 0.5em;
+	padding-bottom: 1.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	}	
+	
+	.violencia{
+		background:  #bb8fce ;
+		height: 700px;
+		width: auto;
+		padding-right: 1.5em;
+		padding-top:0.3em;
+		border-radius: 50px;
+	}
+
+	.violencia ul li{
+		text-align: justify;
+		font-size:x-large;
+		padding-right: 1.5em;
+
+		width: auto;
+	}
+
+	.imgacoso{
+		padding-left:2em;
+	}
+
+	.tiposv{
+		background:  #c2a5a6;
+		padding-left: 90px;
+		padding-right: 80px;
+		height: 1200px;
+		width: auto;
+		padding-top:0.3em;
+		border-radius: 50px;
+		text-align: justify;
+	}
+
+	.tiposv img{
+		padding-left: 5em;
+	}
+
+	.listaagresores{
+	padding-left: 8em;
+	padding-right: 8em;
+	text-align: justify;
+	font-size:x-large;
+
+   }
+	.ddigitales{
+		background:  #bcdbd2;
+		padding-left: 90px;
+		height: 750px;
+		width: auto;
+		padding-top:0.3em;
+		padding-left: 8em;
+		padding-right: 8em;
+		text-align: justify;
+
+	}
+
+	.ley1{
+	padding-left: 10em;
+	border-radius: 50px;
+	}
+
+	.ayuda{
+		background:  #a497ba;
+		padding-left: 3em;
+		padding-right: 2em;
+		padding-top:0.3em;
+		text-align: justify;
+		height: 830px;
+		width: auto;
+		border-radius: 50px
+	}
+
+
+	.documentar{
+	padding-left: 8em; 
+	width: auto;
+
+	}
+
+
+	body { /*Fondo del documento*/
+		background:#D7BDE2;
+		font-family: arial;
+		color:   #273746  ;
+		margin: 0;
+		font-size: 15pt;
+	}
+
+	.logo{
+		padding: 4px;
+		border: 1px solid black;
+		border-style: inset;
+		/*dotted,dashed,solid,double,groove,ridge,inset*/
+		}
+
+	.container{
+		width: 90%;
+		max-width: 950px;
+		margin:0 auto;
+	}
+
+	.header {
+		background: url(../img/fondo.png);
+		background-position: right bottom;
+		padding: 0.5rem;	
+		font-size: 20px;
+
+	}
+
+	.header a{
+		text-decoration: none;
+		color:#E6B0AA;
+		border-radius: 10px;
+		font-family: fuente4;
+		margin-left: 0.5em;
+		font-size: 25px;
+	}
+
+	.logo-nav-container{ /*elementos alineado en caja*/
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+	}
+
+	.navigation ul{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+
+	}
+
+	.navigation ul li{
+		display: inline-block;
+	}
+
+	.navigation ul li a{
+		display: block;
+		padding: 6px 3px;
+		transition: all 0.4s linear;
+	}
+
+	.navigation ul li a:hover{
+		background:   #cf3476 ;
+
+	}
+
+	#contacto2{
+		padding-left: 10px;
+		padding-right: 10px;
+		text-align: center;		
+	}
+	#contacto td{
+		width: 99%;
+  		padding-left: 40px;
+  		padding-right:80px;
+  		border:solid;
+
+	}
+	.footer{
+		background:#7D487A; 
+		padding: 10px 1px;
+		color: #FFFFFF;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		text-align: center;
+		font-size:small;
+		font-family: fuente3;
+
+	}
+	.social ul li{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: inline-block;
+
+
+	}
+	.social ul li img{
+		display: block;
+		padding: 3px 3px;
+		transition: all 0.4s linear;
+		padding-right:  0em;
+	}
+
+	.social ul {
+		display: flex;
+		justify-content: space-between;
+		padding-left: 15px;
+	}
+
+	.footer .social{
+		padding-left: 1em;
+		padding-right: 1em;
+		
+	}
+
+	.social img:hover{
+	background:   #cf3476;
+	filter: opacity(.5);
+	}
+
+	.copy p{
+		background-color: #512E5F ;
+		text-align: center;
+		padding: 15px;
+		padding-top: 15px;
+		margin-top: 25px;
+		margin-bottom: 40px;
+		color: #B2BABB ;
+		font-size: larger;
+		font-family: fuente4;
+		
+	}
+
+	@font-face{
+	font-family: fuente1;
+	src:url(Majestic.ttf);
+	}
+
+	@font-face{
+	font-family: fuente2;
+	src:url(Bar.ttf);
+	}
+
+	@font-face{
+	font-family: fuente3;
+	src:url(Fashion.ttf);
+	}
+
+	@font-face{
+	font-family: fuente4;
+	src:url(Farm.ttf);
+	}
