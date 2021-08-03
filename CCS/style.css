@@ -184,7 +184,7 @@
 
 	.header a{
 		text-decoration: none;
-		color:#E6B0AA;
+		color: #F8F9F9;
 		border-radius: 10px;
 		font-family: fuente4;
 		margin-left: 0.5em;
@@ -230,7 +230,7 @@
 		width: 99%;
   		padding-left: 40px;
   		padding-right:80px;
-  		border:solid;
+
 
 	}
 	.footer{
